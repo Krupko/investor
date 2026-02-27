@@ -1,0 +1,6 @@
+.header__list {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: clamp(15px, 6.39px + 1.23vw, 30px);
+}

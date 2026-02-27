@@ -1,0 +1,12 @@
+.header__link {
+	font-family: var(--mon), sans-serif;
+	font-size: clamp(20px, 15.41px + 0.66vw, 28px);
+	font-weight: 500;
+	white-space: nowrap;
+	line-height: 100%;
+	color: var(--color-white);
+
+	&--black {
+		color: var(--color-global-bg);
+	}
+}

@@ -1,0 +1,13 @@
+
+.header {
+	width: 100%;
+	display: flex;
+	margin-bottom: clamp(50px, 5.77px + 5.90vw, 119px);
+	justify-content: flex-start;
+	align-items: center;
+
+	@media(max-width: 650px) {
+		display: none;
+	}
+}
+

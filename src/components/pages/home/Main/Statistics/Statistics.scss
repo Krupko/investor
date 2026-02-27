@@ -1,0 +1,10 @@
+.statistics {
+  width: 100%;
+  margin-bottom: clamp(50px, -28.77px + 17.12vw, 300px);
+
+  @media (max-width: 1395px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

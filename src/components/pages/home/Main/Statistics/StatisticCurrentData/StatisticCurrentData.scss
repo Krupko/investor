@@ -1,0 +1,21 @@
+.current-data {
+	width: clamp(412px, 365.37px + 10.14vw, 560px);
+	height: clamp(54px, 47.07px + 1.51vw, 76px);
+	margin: {
+		top: 0;
+		bottom: 44px;
+	};
+
+	background-color: var(--color-purple);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: var(--radius100);
+
+	font: {
+		family: var(--mon);
+		size: clamp(18px, 16.11px + 0.41vw, 24px);
+		weight: 400;
+	}
+	line-height: .16;
+}

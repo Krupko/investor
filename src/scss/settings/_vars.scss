@@ -1,0 +1,33 @@
+:root {
+  // base
+  --mon: "Montserrat";
+  --oswald: "Oswald";
+  --inter: "Inter";
+  --content-width: 1620px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --color-white: #fff;
+  --color-black: #000;
+  --color-global-bg: #171717;
+  --color-back: #1c1c1c;
+  --color-text-btn: #2f2f2f;
+  --color-back-light: #2e2e2e;
+  --color-grey: #616161;
+  --color-grey-border: #555;
+  --color-purple: #402c84;
+  --color-yellow: #ffe600;
+  --color-yellow-dark: #ffa800;
+  --color-green: #00ee34;
+
+  --color-btn-gradient: linear-gradient(90deg, rgba(255, 230, 0, 1), rgba(255, 168, 0, 1) 100%);
+
+  //border-radius
+  --radius10: 10px;
+  --radius30: 30px;
+  --radius100: 100px;
+
+  //box-shadow
+  --box: 4px 4px 15px 0px rgba(0, 0, 0, 0.25);
+}

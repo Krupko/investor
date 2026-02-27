@@ -1,0 +1,15 @@
+.footer {
+	margin: 0 auto;
+	text-align: center;
+	padding: {
+		top: 70px;
+		bottom: 125px;
+	}
+
+	font: {
+		family: var(--mon);
+		size: 24px;
+		weight: 400;
+	}
+	color: var(--color-white);
+}

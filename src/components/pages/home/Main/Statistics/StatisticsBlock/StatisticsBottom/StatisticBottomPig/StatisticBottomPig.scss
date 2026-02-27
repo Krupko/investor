@@ -1,0 +1,11 @@
+.statistic__pig {
+  width: 223px;
+  height: 227px;
+  position: absolute;
+  bottom: 48px;
+  right: clamp(-100px, -173.44px + 10.49vw, 28px);
+
+  @media (max-width:750px) {
+    display: none;
+  }
+}

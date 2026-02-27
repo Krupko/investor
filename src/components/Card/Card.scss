@@ -1,0 +1,28 @@
+.card {
+  border-radius: var(--radius30);
+  background-color: var(--color-back);
+
+  padding: {
+    right: clamp(32px, 26.33px + 1.23vw, 50px);
+    bottom: clamp(32px, 26.33px + 1.23vw, 50px);
+    left: clamp(32px, 26.33px + 1.23vw, 50px);
+  }
+
+  font: {
+    family: var(--mon);
+    size: clamp(18px, 17.37px + 0.14vw, 20px);
+    weight: 500;
+  }
+
+  color: var(--color-white);
+
+  line-height: 1.3;
+  position: relative;
+
+  &__link {
+    position: absolute;
+    bottom: clamp(32px, 26.33px + 1.23vw, 50px);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

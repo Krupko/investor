@@ -1,0 +1,17 @@
+.hero__pig {
+	width: clamp(370px, 304.47px + 14.25vw, 578px);
+	height: clamp(520px, 426.74px + 20.27vw, 816px);
+	position: absolute;
+	right: clamp(10px, -26.86px + 8.01vw, 127px);
+	bottom: 0;
+
+	@media(max-width: 650px) {
+		bottom: 100px;
+	}
+}
+
+.hero__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

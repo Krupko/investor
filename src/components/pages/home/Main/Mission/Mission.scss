@@ -1,0 +1,24 @@
+.mission__card {
+  background-color: var(--color-purple);
+  margin-bottom: clamp(95px, 27.26px + 14.73vw, 310px);
+
+  padding: {
+    top: clamp(40px, 36.85px + 0.68vw, 50px);
+    right: clamp(32px, 26.33px + 1.23vw, 50px);
+    bottom: 40px;
+    left: clamp(32px, 26.33px + 1.23vw, 50px);
+  }
+
+  p {
+    font: {
+      family: var(--mon);
+      size: clamp(18px, 16.11px + 0.41vw, 24px);
+      weight: 400;
+      style: normal;
+    }
+
+    line-height:1.5;
+    color: var(--color-white);
+
+  }
+}

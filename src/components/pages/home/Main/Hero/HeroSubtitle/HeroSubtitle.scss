@@ -1,0 +1,18 @@
+.hero__subtitle {
+	margin-bottom: 178px;
+	font: {
+		family: var(--mon);
+		size: clamp(36px, 31.59px + 0.96vw, 50px);
+		weight: 600;
+	}
+	color: var(--white);
+	line-height: 100%;
+}
+
+.hero__subtitle-br650 {
+	display: none;
+
+	@media(max-width: 650px) {
+		display: block;
+	}
+}

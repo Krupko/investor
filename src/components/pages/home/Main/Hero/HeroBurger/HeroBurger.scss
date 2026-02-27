@@ -1,0 +1,17 @@
+.hero__burger {
+	display: none;
+	width: 54px;
+	height: 54px;
+
+	position: absolute;
+	top: 30px;
+	right: 24px;
+
+	@media(max-width: 650px) {
+		display: block;
+	}
+
+	@media(max-width: 596px) {
+		top: 54px;
+	}
+}
