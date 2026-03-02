@@ -1,5 +1,5 @@
 import "./Mentor.scss";
-import Link from "../../../../Links/Link.jsx";
+import Link from "../../../../Link/Link.jsx";
 
 function Mentor() {
   return (

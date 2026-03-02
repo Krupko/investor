@@ -1,0 +1,30 @@
+.programme {
+  width: 100%;
+  color: var(--color-white);
+
+  &__title {
+    margin: {
+      top: 0;
+      bottom: clamp(30px, 48.41px + -0.96vw, 44px);
+    }
+
+    font: {
+      family: var(--mon);
+      size: clamp(27px, 24.16px + 0.62vw, 36px);
+      style: normal;
+      weight: 500;
+    }
+
+  }
+
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: clamp(16px, 11.59px + 0.96vw, 30px);
+
+    padding: 0 clamp(0px, -15.75px + 3.42vw, 50px);
+  }
+}

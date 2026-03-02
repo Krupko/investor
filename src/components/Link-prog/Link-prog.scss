@@ -1,0 +1,16 @@
+.link-prog {
+  font: {
+    family: var(--mon);
+    size: clamp(18px, 16.11px + 0.41vw, 24px);
+    style: normal;
+    weight: 500;
+  }
+
+  color: var(--white);
+
+  padding:clamp(12px, 6.96px + 1.10vw, 28px) clamp(50px, 37.40px + 2.74vw, 90px);
+
+  background-color:var(--color-purple);
+  border-radius: var(--radius100);
+  box-shadow:var(--box);
+}

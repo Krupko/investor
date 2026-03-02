@@ -5,6 +5,7 @@ import Statistics from "./Statistics/Statistics.jsx";
 import Progress from "./Progress/Progress.jsx";
 import Mission from "./Mission/Mission.jsx";
 import Mentor from "./Mentor/Mentor.jsx";
+import Programme from "./Programme/Programme.jsx";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <Progress />
       <Mission />
       <Mentor />
+      <Programme />
     </main>
   );
 }
