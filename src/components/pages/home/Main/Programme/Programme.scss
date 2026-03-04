@@ -1,6 +1,7 @@
 .programme {
   width: 100%;
   color: var(--color-white);
+  margin-bottom: clamp(72px, -8.34px + 17.47vw, 327px);
 
   &__title {
     margin: {
