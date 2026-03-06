@@ -1,0 +1,45 @@
+.direction {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 90px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+  }
+
+  &__social {
+    font: {
+      family: var(--mon);
+      style: normal;
+    }
+  }
+
+  &__card {
+    width: 311px;
+    height: 340px;
+
+    padding: {
+      top: 40px;
+      left: 40px;
+    }
+
+    background-color: var(--color-back);
+    border-radius: var(--radius20);
+  }
+
+  &__title {
+    margin: {
+      top: 0;
+      left: 40px;
+      bottom: 19px;
+    }
+
+    font: {
+      size: 28px;
+      weight: 600;
+    }
+  }
+}

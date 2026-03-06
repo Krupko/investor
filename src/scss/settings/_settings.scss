@@ -24,6 +24,22 @@ html {
   font-family: var(--mont), sans-serif;
   font-size: 16px;
   color: var(--color-white);
+  position: relative;
+  overflow-x: hidden;
+
+
+  &::before {
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    content: '';
+    top: 4%;
+    right: 0;
+    background: radial-gradient(circle, #402c84 50%);
+    opacity: .3;
+    border-radius: 50%;
+    filter: blur(90px);
+  }
 }
 
 .wrapper {

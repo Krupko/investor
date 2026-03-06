@@ -1,14 +1,14 @@
 .hobby {
   width: 100%;
+  margin-bottom: clamp(100px, 42.97px + 12.40vw, 281px);
 
   display: flex;
   justify-content: space-between;
   column-gap: 50px;
 
   &__card {
-    width: 900px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     row-gap: 40px;
 
     &-image {
@@ -19,12 +19,145 @@
       height: 240px;
     }
 
-    &-pic {
+    &-pic-wrapper {
+      width: 430px;
+      height: 240px;
       border-radius: var(--radius20);
+      overflow: hidden;
     }
   }
 
   &__content {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+    font: {
+      family: var(--mon);
+      style: normal;
+    }
+
+    color:var(--color-white);
+
+  }
+
+  &__title {
+    margin: {
+      top: 0;
+      bottom: 15px;
+    }
+
+    font: {
+      size: clamp(1.75rem, 1.356rem + 1.37vw, 3rem);
+      weight: 700;
+    }
+
+  }
+
+  p {
+    margin: {
+      top: 0;
+      bottom: clamp(1.125rem, 1.086rem + 0.14vw, 1.25rem);
+    }
+
+    font: {
+      size: 20px;
+      weight: 500;
+    }
+
+    line-height:1.6;
+  }
+
+  &__avatar {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 30px;
+
+    &-content {
+      width: 100%;
+    }
+
+    &-image {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+    }
+
+    &-title {
+      margin: {
+        top: 10px;
+        bottom: 10px;
+      }
+
+      font: {
+        size: clamp(1.5rem, 1.421rem + 0.27vw, 1.75rem);
+        weight: 600;
+      }
+    }
+
+    &-text {
+      display: flex;
+      column-gap: 30px;
+      row-gap: 10px;
+      flex-wrap: wrap;
+
+      span {
+        font-size: clamp(0.875rem, 0.757rem + 0.41vw, 1.25rem);
+      }
+    }
+  }
+
+  &__link {
+    width: 409px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-red);
+    border-radius: var(--radius100);
+    box-shadow: var(--box);
+    align-self: center;
+
+    font: {
+      size: 24px;
+      weight: 500;
+    }
+
+    color:var(--color-white);
+  }
+}
+
+@media(max-width:1405px) {
+  .hobby {
+    justify-content: space-around;
+
+    &__card-image {
+      height: auto;
+      flex-direction: column;
+      row-gap: 40px;
+
+      &-none {
+        display: none;
+      }
+    }
+  }
+}
+
+@media(max-width:955px) {
+  .hobby {
+    flex-direction: column-reverse;
+    align-items: center;
+    row-gap: 32px;
+
+    &__content {
+      width: 100%;
+    }
+
+    &__card-image {
+      width: 100%;
+    }
   }
 }

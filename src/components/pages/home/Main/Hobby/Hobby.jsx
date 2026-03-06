@@ -3,48 +3,58 @@ import card1 from "./image/card1.png";
 import card2 from "./image/card2.png";
 import card3 from "./image/card3.png";
 import card4 from "./image/card4.png";
+import avatar from "./image/avatar.png";
 
 function Hobby() {
   return (
     <div className='hobby'>
       <div className='hobby__card'>
         <div className='hobby__card-image'>
-          <img
-            className='hobby__card-pic'
-            src={card1}
-            loading='lazy'
-            width='430'
-            height='240'
-            alt='Hobby'
-          />
+          <div className='hobby__card-pic-wrapper'>
+            <img
+              className='hobby__card-pic'
+              src={card1}
+              loading='lazy'
+              width='430'
+              height='240'
+              alt='Hobby'
+            />
+          </div>
 
-          <img
-            className='hobby__card-pic'
-            src={card2}
-            loading='lazy'
-            width='430'
-            height='240'
-            alt='Hobby'
-          />
+          <div className='hobby__card-pic-wrapper'>
+            <img
+              className='hobby__card-pic'
+              src={card2}
+              loading='lazy'
+              width='430'
+              height='240'
+              alt='Hobby'
+            />
+          </div>
         </div>
 
-        <div className='hobby__card-image'>
-          <img
-            className='hobby__card-pic'
-            src={card3}
-            loading='lazy'
-            width='430'
-            height='240'
-            alt='Hobby'
-          />
-          <img
-            className='hobby__card-pic'
-            src={card4}
-            loading='lazy'
-            width='430'
-            height='240'
-            alt='Hobby'
-          />
+        <div className='hobby__card-image hobby__card-image-none'>
+          <div className='hobby__card-pic-wrapper'>
+            <img
+              className='hobby__card-pic'
+              src={card3}
+              loading='lazy'
+              width='430'
+              height='240'
+              alt='Hobby'
+            />
+          </div>
+
+          <div className='hobby__card-pic-wrapper'>
+            <img
+              className='hobby__card-pic'
+              src={card4}
+              loading='lazy'
+              width='430'
+              height='240'
+              alt='Hobby'
+            />
+          </div>
         </div>
       </div>
 
@@ -63,7 +73,7 @@ function Hobby() {
           <picture className='hobby__avatar-image'>
             <img
               className='hobby__avatar-pic'
-              src=''
+              src={avatar}
               loading='lazy'
               alt='avatar'
               width='130'

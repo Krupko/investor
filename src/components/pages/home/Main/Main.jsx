@@ -8,6 +8,7 @@ import Mentor from "./Mentor/Mentor.jsx";
 import Programme from "./Programme/Programme.jsx";
 import Channel from "./Channel/ Channel.jsx";
 import Hobby from "./Hobby/Hobby.jsx";
+import Direction from "./Direction/Direction.jsx";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
       <Programme />
       <Channel />
       <Hobby />
+      <Direction />
     </main>
   );
 }

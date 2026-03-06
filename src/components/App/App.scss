@@ -1,10 +1,24 @@
 #root {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	padding-top: 57px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 57px;
+  position: relative;
 
-	@media(max-width: 650px) {
-		padding-top: 0;
-	}
+  &::after {
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    content: '';
+    top: 20%;
+    left: -10%;
+    background: radial-gradient(circle, #402c84 50%);
+    opacity: .3;
+    border-radius: 50%;
+    filter: blur(90px);
+  }
+
+  @media(max-width: 650px) {
+    padding-top: 0;
+  }
 }
