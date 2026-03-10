@@ -1,16 +1,16 @@
-import './App.scss'
-import Header from '../Header/Header'
-import Main from '../pages/home/Main/Main'
-import Footer from '../Footer/Footer'
+import "./App.scss";
+import Header from "../Header/Header";
+import Home from "../pages/Home/Home.jsx";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      <Main />
+      <Home />
       <Footer />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
