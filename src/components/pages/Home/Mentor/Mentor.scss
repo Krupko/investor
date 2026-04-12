@@ -2,7 +2,7 @@
   width: 100%;
 
   padding: {
-    bottom: clamp(80px, 67.40px + 2.74vw, 120px);
+    bottom: clamp(80px, 67.4px + 2.74vw, 120px);
   }
 
   background-image: url('../../../../assets/img/bg1.png');
@@ -27,7 +27,6 @@
 
   &__description {
     width: 50%;
-
   }
 
   &__title {
@@ -55,7 +54,7 @@
       bottom: clamp(44px, 22.58px + 4.66vw, 112px);
     }
 
-    line-height:1.8;
+    line-height: 1.8;
 
     &-right {
       font-weight: 500;
@@ -63,8 +62,6 @@
       line-height: 1.5;
       text-align: end;
     }
-
-
   }
 
   &__link {
@@ -83,7 +80,7 @@
       weight: 500;
     }
 
-    color:var(--color-text-btn);
+    color: var(--color-text-btn);
     white-space: nowrap;
 
     &:hover {
@@ -99,13 +96,11 @@
       size: clamp(18px, 16.11px + 0.41vw, 24px);
       style: normal;
       weight: 500;
-
     }
   }
 }
 
-
-@media(max-width:1025px) {
+@media (max-width: 1025px) {
   .mentor {
     height: clamp(910px, 836.73px + 15.93vw, 1000px);
     background-position: center bottom;

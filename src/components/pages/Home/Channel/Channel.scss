@@ -15,13 +15,12 @@
   }
 
   &__content {
-
     font: {
       family: var(--mon);
       style: normal;
     }
 
-    color:var(--color-white);
+    color: var(--color-white);
   }
 
   &__title {
@@ -32,7 +31,7 @@
 
     margin: {
       top: 0;
-      bottom: 40px
+      bottom: 40px;
     }
   }
 
@@ -66,7 +65,7 @@
   }
 }
 
-@media(max-width:1435px) {
+@media (max-width: 1435px) {
   .channel {
     &__image {
       width: 440px;
@@ -91,7 +90,7 @@
   }
 }
 
-@media(max-width:945px) {
+@media (max-width: 945px) {
   .channel {
     padding-bottom: 0;
     flex-direction: column;

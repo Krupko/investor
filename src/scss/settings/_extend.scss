@@ -1,0 +1,36 @@
+%font-20 {
+  font: {
+    family: var(--font-mont);
+    size: 20px;
+    weight: 400;
+  }
+
+  color: var(--color-green);
+}
+
+%font-48 {
+  font: {
+    family: var(--mon);
+    size: 48px;
+    weight: 800;
+    style: normal;
+  }
+}
+
+%font-50 {
+  font: {
+    family: var(--mon);
+    size: clamp(36px, 31.59px + 0.96vw, 50px);
+    weight: 600;
+    style: normal;
+  }
+}
+
+%font-80 {
+  font: {
+    family: var(--mon);
+    size: clamp(48px, 37.92px + 2.19vw, 80px);
+    weight: 800;
+    style: normal;
+  }
+}

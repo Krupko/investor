@@ -1,12 +1,12 @@
 .hero__wallet {
-	display: none;
-	width: 130px;
-	height: 124px;
-	position: absolute;
-	left: 10%;
-	top: 40%;
+  display: none;
+  width: 130px;
+  height: 124px;
+  position: absolute;
+  left: 10%;
+  top: 40%;
 
-	@media(max-width: 750px) {
-		display: block;
-	}
+  @media (max-width: 750px) {
+    display: block;
+  }
 }

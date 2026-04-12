@@ -1,87 +1,18 @@
-@font-face {
-	font-family: Inter;
-	src: url(/fonts/InterRegular.woff2) format('woff2');
-	font-weight: 400;
-	font-display: swap;
-  font-style: normal;
-}
+@use 'mixins-fonts' as *;
+@include font-face('Inter', '/fonts/InterRegular', 400, normal);
+@include font-face('Montserrat', '/fonts/MontserratRegular', 400, normal);
+@include font-face('Montserrat', '/fonts/MontserratRegular', 500, normal);
+@include font-face('Montserrat', '/fonts/MontserratRegular', 600, normal);
+@include font-face('Montserrat', '/fonts/MontserratRegular', 700, normal);
+@include font-face('Montserrat', '/fonts/MontserratRegular', 800, normal);
+@include font-face('Oswald', '/fonts/OswaldRegular', 400, normal);
+@include font-face('Oswald', '/fonts/OswaldRegular', 500, normal);
 
-@font-face {
-	font-family: Montserrat;
-	src: url(/fonts/MontserratRegular.woff2) format('woff2');
-	font-weight: 400;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url(/fonts/MontserratMedium.woff2) format('woff2');
-	font-weight: 500;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url(/fonts/MontserratSemiBold.woff2) format('woff2');
-	font-weight: 600;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url(/fonts/MontserratBold.woff2) format('woff2');
-	font-weight: 700;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Montserrat;
-	src: url(/fonts/MontserratExtraBold.woff2) format('woff2');
-	font-weight: 800;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Oswald;
-	src: url(/fonts/OswaldRegular.woff2) format('woff2');
-	font-weight: 400;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Oswald;
-	src: url(/fonts/OswaldMedium.woff2) format('woff2');
-	font-weight: 500;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Hexcore;
-	src: url(/fonts/Hexcore.woff2) format('woff2');
-	font-weight: 400;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: JandaHappyDay;
-	src: url(/fonts/JandaHappyDay.woff2) format('woff2');
-	font-weight: 400;
-	font-display: swap;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: PlaywriteNZGuidesRegular;
-	src: url(/fonts/PlaywriteNZGuidesRegular.woff2) format('woff2');
-	font-weight: 400;
-	font-display: swap;
-	font-style: normal;
-}
+@include font-face('Hexcore', '/fonts/Hexcore', 400, normal);
+@include font-face('JandaHappyDay', '/fonts/JandaHappyDay', 400, normal);
+@include font-face(
+  'PlaywriteNZGuidesRegular',
+  '/fonts/PlaywriteNZGuidesRegular',
+  400,
+  normal
+);

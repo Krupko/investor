@@ -1,6 +1,7 @@
-#root {
+.flex-block {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
   padding-top: 57px;
   position: relative;
@@ -13,12 +14,12 @@
     top: 20%;
     left: -10%;
     background: radial-gradient(circle, #402c84 50%);
-    opacity: .3;
+    opacity: 0.3;
     border-radius: 50%;
     filter: blur(90px);
   }
 
-  @media(max-width: 650px) {
+  @media (max-width: 650px) {
     padding-top: 0;
   }
 }

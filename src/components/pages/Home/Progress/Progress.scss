@@ -12,12 +12,11 @@
   column-gap: 20px;
 
   padding: {
-    top: clamp(40px, -4.81px + 3.90vw, 70px);
+    top: clamp(40px, -4.81px + 3.9vw, 70px);
     right: 30px;
   }
 
   &__wrapper {
-
     &-right {
       width: 750px;
       font-family: var(--mon);
@@ -46,7 +45,7 @@
     bottom: 0;
     right: -66%;
 
-    @media(max-width:1455px) {
+    @media (max-width: 1455px) {
       display: none;
     }
   }
@@ -72,7 +71,7 @@
     }
 
     color: var(--color-white);
-    text-align:center;
+    text-align: center;
 
     border: {
       top: 2px solid var(--color-grey-border);
@@ -81,7 +80,6 @@
     }
 
     border-radius: 0 var(--radius100) var(--radius100) 0;
-
   }
 
   &__title {
@@ -94,13 +92,12 @@
       size: clamp(48px, 44.22px + 0.82vw, 60px);
       weight: 800;
     }
-
   }
 
   &__text {
     margin: {
       top: 0;
-      bottom: clamp(20px, 7.40px + 2.74vw, 60px);
+      bottom: clamp(20px, 7.4px + 2.74vw, 60px);
     }
 
     font: {
@@ -108,7 +105,7 @@
       weight: 400;
     }
 
-    line-height:1.5;
+    line-height: 1.5;
   }
 
   &__education {
@@ -119,7 +116,7 @@
 
     margin: {
       top: 0;
-      bottom: clamp(30px, 11.10px + 4.11vw, 90px);
+      bottom: clamp(30px, 11.1px + 4.11vw, 90px);
     }
   }
 
@@ -131,11 +128,9 @@
       display: none;
     }
   }
-
 }
 
-
-@media(max-width:1150px) {
+@media (max-width: 1150px) {
   .progress {
     flex-direction: column-reverse;
     padding-right: 0;
@@ -171,7 +166,7 @@
   }
 }
 
-@media(max-width:805px) {
+@media (max-width: 805px) {
   .progress {
     &__image {
       position: absolute;
@@ -180,7 +175,7 @@
   }
 }
 
-@media(max-width:750px) {
+@media (max-width: 750px) {
   .progress__wrapper {
     &-right {
       width: 100%;

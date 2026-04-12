@@ -8,9 +8,9 @@
 
   color: var(--white);
 
-  padding:clamp(12px, 6.96px + 1.10vw, 28px) clamp(50px, 37.40px + 2.74vw, 90px);
+  padding: clamp(12px, 6.96px + 1.1vw, 28px) clamp(50px, 37.4px + 2.74vw, 90px);
 
-  background-color:var(--color-purple);
+  background-color: var(--color-purple);
   border-radius: var(--radius100);
-  box-shadow:var(--box);
+  box-shadow: var(--box);
 }

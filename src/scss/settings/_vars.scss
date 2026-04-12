@@ -1,8 +1,8 @@
 :root {
   // base
-  --mon: "Montserrat";
-  --oswald: "Oswald";
-  --inter: "Inter";
+  --mon: 'Montserrat', sans-serif;
+  --oswald: 'Oswald', sans-serif;
+  --inter: 'Inter', sans-serif;
   --content-width: 1620px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
@@ -23,7 +23,11 @@
   --color-green: #00ee34;
   --color-red: #cd201f;
 
-  --color-btn-gradient: linear-gradient(90deg, rgba(255, 230, 0, 1), rgba(255, 168, 0, 1) 100%);
+  --color-btn-gradient: linear-gradient(
+    90deg,
+    rgba(255, 230, 0, 1),
+    rgba(255, 168, 0, 1) 100%
+  );
 
   //border-radius
   --radius10: 10px;

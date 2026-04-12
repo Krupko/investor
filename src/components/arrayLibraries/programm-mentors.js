@@ -7,4 +7,4 @@ export const PROGRAMMEMENTORS = [
   { id: 6, children: 'Постановка целей', href: '#' },
   { id: 7, children: 'Фьючурсы', href: '#' },
   { id: 8, children: 'Крипровалюты', href: '#' },
-]
+];

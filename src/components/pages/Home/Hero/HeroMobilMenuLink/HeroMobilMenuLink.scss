@@ -1,11 +1,10 @@
 .hero {
-	&__link-mobile {
-		font: {
-			family: var(--inter);
-			size: 25px;
-			weight: 900;
-		}
-		color: var(--color-purple);
-
-	}
+  &__link-mobile {
+    font: {
+      family: var(--inter);
+      size: 25px;
+      weight: 900;
+    }
+    color: var(--color-purple);
+  }
 }

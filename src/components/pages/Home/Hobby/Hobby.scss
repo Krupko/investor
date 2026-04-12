@@ -1,6 +1,6 @@
 .hobby {
   width: 100%;
-  margin-bottom: clamp(100px, 42.97px + 12.40vw, 281px);
+  margin-bottom: clamp(100px, 42.97px + 12.4vw, 281px);
 
   display: flex;
   justify-content: space-between;
@@ -32,14 +32,12 @@
     display: flex;
     flex-direction: column;
 
-
     font: {
       family: var(--mon);
       style: normal;
     }
 
-    color:var(--color-white);
-
+    color: var(--color-white);
   }
 
   &__title {
@@ -52,7 +50,6 @@
       size: clamp(1.75rem, 1.356rem + 1.37vw, 3rem);
       weight: 700;
     }
-
   }
 
   p {
@@ -66,7 +63,7 @@
       weight: 500;
     }
 
-    line-height:1.6;
+    line-height: 1.6;
   }
 
   &__avatar {
@@ -126,11 +123,11 @@
       weight: 500;
     }
 
-    color:var(--color-white);
+    color: var(--color-white);
   }
 }
 
-@media(max-width:1405px) {
+@media (max-width: 1405px) {
   .hobby {
     justify-content: space-around;
 
@@ -146,7 +143,7 @@
   }
 }
 
-@media(max-width:955px) {
+@media (max-width: 955px) {
   .hobby {
     flex-direction: column-reverse;
     align-items: center;

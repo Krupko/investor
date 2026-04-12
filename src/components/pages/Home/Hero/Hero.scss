@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  height: clamp(755px, 968.04px + -11.10vw, 917px);
+  height: clamp(755px, 968.04px + -11.1vw, 917px);
   margin-bottom: clamp(96px, 59.45px + 7.95vw, 212px);
   border-radius: var(--radius30);
   position: relative;
@@ -19,13 +19,13 @@
     color: var(--color-global-bg);
   }
 
-  @media(max-width: 900px) {
+  @media (max-width: 900px) {
     background: {
       image: url('../../../../assets/img/hero/hero-bg/hero-bg-900.webp');
     }
   }
 
-  @media(max-width: 750px) {
+  @media (max-width: 750px) {
     &__wrapper-btn {
       width: 100%;
       position: absolute;
@@ -42,7 +42,7 @@
     }
   }
 
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     background: {
       image: url('../../../../assets/img/hero/hero-bg/hero-bg-500.webp');
     }

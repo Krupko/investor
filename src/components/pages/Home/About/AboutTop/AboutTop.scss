@@ -1,18 +1,17 @@
 .about__top {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	column-gap: 10px;
-	flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  flex-wrap: wrap;
 
+  @media (max-width: 1497px) {
+    row-gap: 76px;
+    justify-content: space-around;
+  }
 
-	@media(max-width: 1497px) {
-		row-gap: 76px;
-		justify-content: space-around;
-	}
-
-	@media(max-width: 928px) {
-		flex-direction: column;
-		align-items: center;
-	}
+  @media (max-width: 928px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -1,50 +1,50 @@
 .about {
-	&__card-top {
-		width: 30%;
-		max-width: 511px;
-		min-width: 412px;
-		height: clamp(351px, 327.05px + 5.21vw, 427px);
+  &__card-top {
+    width: 30%;
+    max-width: 511px;
+    min-width: 412px;
+    height: clamp(351px, 327.05px + 5.21vw, 427px);
 
-		padding: {
-			top: 72px;
-		}
-	}
+    padding: {
+      top: 72px;
+    }
+  }
 
-	&__card-title {
-		width: clamp(348px, 326.89px + 4.59vw, 415px);
-		height: clamp(55px, 52.16px + 0.62vw, 64px);
-		background-color: var(--color-purple);
-		border-radius: var(--radius100);
+  &__card-title {
+    width: clamp(348px, 326.89px + 4.59vw, 415px);
+    height: clamp(55px, 52.16px + 0.62vw, 64px);
+    background-color: var(--color-purple);
+    border-radius: var(--radius100);
 
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translateX(-50%);
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-		font: {
-			size: clamp(22px, 18.85px + 0.68vw, 32px);
-			weight: 700;
-		}
-	}
+    font: {
+      size: clamp(22px, 18.85px + 0.68vw, 32px);
+      weight: 700;
+    }
+  }
 
-	&__card-text {
-		margin: {
-			top: 0;
-			bottom: 24px;
-		}
-	}
+  &__card-text {
+    margin: {
+      top: 0;
+      bottom: 24px;
+    }
+  }
 
-	&__card-participants {
-		width: 267px;
-		height: 37px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background-color: var(--color-back-light);
-		border-radius: var(--radius100);
-	}
+  &__card-participants {
+    width: 267px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-back-light);
+    border-radius: var(--radius100);
+  }
 }

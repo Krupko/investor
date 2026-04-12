@@ -1,0 +1,19 @@
+@use '../../scss/settings/extend' as *;
+
+.title {
+  margin: 0;
+  @extend %font-80;
+  color: var(--color-white);
+}
+
+.titleh2 {
+  margin: 0;
+  @extend %font-48;
+  color: var(--color-white);
+}
+
+.subtitle {
+  margin: 0;
+  @extend %font-50;
+  color: var(--color-white);
+}
