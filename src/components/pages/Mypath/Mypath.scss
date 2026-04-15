@@ -1,8 +1,36 @@
+.main {
+  padding-top: 40px;
+}
+
 .mypath {
   width: 800px;
   height: 500px;
-  background-color: red;
-  color: blueviolet;
-  font-family: var(--mon);
-  font-size: 60px;
+}
+
+.block-svg {
+  flex-direction: row-reverse;
+  position: relative;
+
+  & > .mypath__image {
+    width: auto;
+    min-height: auto;
+    position: absolute;
+    bottom: 70px;
+  }
+}
+
+.text-svg {
+  width: 65%;
+}
+
+@media (max-width: 1060px) {
+  .block-svg {
+    & > .mypath__image {
+      position: static;
+    }
+  }
+
+  .text-svg {
+    width: 100%;
+  }
 }

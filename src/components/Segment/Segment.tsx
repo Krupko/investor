@@ -14,14 +14,14 @@ export const Segment = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <section className={css.title}>
+    <section className={css.segment}>
       {size === 1 ? (
         <h1 className={css.title}>{title}</h1>
       ) : (
         <h2 className={css.titleh2}>{title}</h2>
       )}
       {subtitle && <span className={css.subtitle}>{subtitle}</span>}
-      {children && <div className={css.content}>{children}</div>}
+      {children}
     </section>
   );
 };
