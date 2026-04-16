@@ -4,12 +4,6 @@
   box-shadow: var(--box);
   padding: 28px 99px;
 
-  font: {
-    family: var(--mon);
-    size: clamp(24px, 21.48px + 0.55vw, 32px);
-    weight: 600;
-  }
-
   white-space: nowrap;
   line-height: 100%;
   color: var(--color-text-btn);

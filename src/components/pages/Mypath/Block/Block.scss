@@ -27,6 +27,8 @@
   &__image {
     min-width: clamp(375px, 423.66px + -2.53vw, 412px);
     min-height: clamp(500px, 565.75px + -3.42vw, 550px);
+    position: relative;
+    z-index: 5;
 
     img {
       border-radius: 30px;

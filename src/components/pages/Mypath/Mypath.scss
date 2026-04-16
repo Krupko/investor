@@ -1,3 +1,5 @@
+@use '../../../scss/settings/extend' as *;
+
 .main {
   padding-top: 40px;
 }
@@ -5,6 +7,24 @@
 .mypath {
   width: 800px;
   height: 500px;
+
+  &__section {
+    margin: {
+      bottom: clamp(200px, 121.23px + 17.12vw, 450px);
+    }
+  }
+
+  &__title {
+    width: 50%;
+    margin: 0;
+    @extend %font-38;
+    color: var(--color-white);
+  }
+
+  &__button {
+    @extend %font-i24;
+    color: var(--color-text-btn);
+  }
 }
 
 .block-svg {
@@ -32,5 +52,18 @@
 
   .text-svg {
     width: 100%;
+  }
+}
+
+@media (max-width: 885px) {
+  .mypath {
+    &__section {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+
+    &__title {
+      width: 100%;
+    }
   }
 }

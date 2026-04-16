@@ -3,7 +3,7 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Header from '../Header/Header';
 import Home from '../pages/Home/Home.jsx';
-import Mypath from '../pages/Mypath/Mypath.jsx';
+import Mypath from '../pages/Mypath/Mypath.tsx';
 import Course from '../pages/Course/Course.jsx';
 import Benefits from '../pages/Benefits/Benefits.jsx';
 import Footer from '../Footer/Footer';

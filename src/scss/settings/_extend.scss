@@ -6,6 +6,33 @@
   }
 }
 
+%font-i24 {
+  font: {
+    family: var(--mon);
+    size: 24px;
+    weight: 500;
+    style: normal;
+  }
+}
+
+%font-32 {
+  font: {
+    family: var(--mon);
+    size: clamp(24px, 21.48px + 0.55vw, 32px);
+    style: normal;
+    weight: 600;
+  }
+}
+
+%font-38 {
+  font: {
+    family: var(--mon);
+    size: clamp(32px, 30.11px + 0.41vw, 38px);
+    weight: 700;
+    style: normal;
+  }
+}
+
 %font-48 {
   font: {
     family: var(--mon);

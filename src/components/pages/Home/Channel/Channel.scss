@@ -1,3 +1,5 @@
+@use '../../../../scss/settings/extend' as *;
+
 .channel {
   width: 100%;
   background-color: var(--color-back);
@@ -46,6 +48,10 @@
     li:not(:last-child) {
       margin-bottom: 25px;
     }
+  }
+
+  &__button {
+    @extend %font-i24;
   }
 
   &__button-wrapper460 {

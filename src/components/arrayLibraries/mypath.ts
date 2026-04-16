@@ -15,14 +15,14 @@ export interface BlockProps {
   id?: string | number;
   className?: string;
   classNameSVG?: string;
-  webp?: string;
-  avif?: string;
+  webp?: string | undefined;
+  avif?: string | undefined;
   jpg: string;
-  alt?: string;
+  alt?: string | undefined;
   width?: number;
   height?: number;
-  label?: string;
-  label2?: string;
+  label?: string | undefined;
+  label2?: string | undefined;
 }
 
 export const MYPATH: BlockProps[] = [

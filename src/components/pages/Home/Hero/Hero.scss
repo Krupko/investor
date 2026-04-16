@@ -1,3 +1,5 @@
+@use '../../../../scss/settings/extend' as *;
+
 .hero {
   width: 100%;
   height: clamp(755px, 968.04px + -11.1vw, 917px);
@@ -17,6 +19,11 @@
     repeat: no-repeat;
     position: 100% 100%;
     color: var(--color-global-bg);
+  }
+
+  &__btn {
+    @extend %font-32;
+    color: var(--color-text-btn);
   }
 
   @media (max-width: 900px) {

@@ -1,3 +1,5 @@
+@use '../../../../scss/settings/extend' as *;
+
 .progress {
   width: 100%;
   border-radius: var(--radius30);
@@ -121,7 +123,7 @@
   }
 
   &__button {
-    font-size: 24px;
+    @extend %font-i24;
     margin-left: 58px;
 
     &-480 {

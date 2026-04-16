@@ -1,3 +1,5 @@
+@use '../../../../../../scss/settings/extend' as *;
+
 .statistic__bottom {
   width: 100%;
   display: flex;
@@ -62,10 +64,8 @@
     padding: 25px 58px;
     margin-top: 20px;
 
-    font: {
-      size: 24px;
-      weight: 500;
-    }
+    @extend %font-i24;
+    color: var(--color-text-btn);
   }
 
   @media (max-width: 1275px) {

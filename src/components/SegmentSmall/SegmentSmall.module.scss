@@ -1,0 +1,18 @@
+@use '../../scss/settings/extend' as *;
+@use '../../scss/settings/mixins-flex' as *;
+
+.segmentSmall {
+  width: 100%;
+
+  padding: {
+    top: clamp(40px, 32.75px + 1.58vw, 63px);
+    right: clamp(24px, 0.05px + 5.21vw, 100px);
+    bottom: clamp(40px, 32.75px + 1.58vw, 63px);
+    left: clamp(24px, 9.51px + 3.15vw, 70px);
+  }
+
+  background-color: var(--color-back);
+  border-radius: var(--radius30);
+  box-shadow: var(--box1);
+  @include flex(flex, space-between, center);
+}

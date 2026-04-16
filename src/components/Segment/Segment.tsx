@@ -7,14 +7,16 @@ export const Segment = ({
   size = 1,
   subtitle,
   children,
+  className,
 }: {
   title: React.ReactNode;
   size?: 1 | 2;
   subtitle?: string;
   children?: React.ReactNode;
+  className?: string;
 }) => {
   return (
-    <section className={css.segment}>
+    <section className={`${css.segment} ${className}`}>
       {size === 1 ? (
         <h1 className={css.title}>{title}</h1>
       ) : (

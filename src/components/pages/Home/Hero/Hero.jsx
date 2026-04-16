@@ -1,7 +1,7 @@
 import './Hero.scss';
 import HeroTitle from './HeroTitle/HeroTitle.jsx';
 import HeroSubtitle from './HeroSubtitle/HeroSubtitle.jsx';
-import Button from '../../../Button/Button.jsx';
+import Button from '../../../Button/Button.tsx';
 import HeroPig from './HeroPig/HeroPig.jsx';
 import HeroWallet from './HeroWallet/HeroWallet.jsx';
 import Burger from '../../../Burger/Burger.jsx';
@@ -27,7 +27,7 @@ function Hero() {
         <HeroWallet />
         <Burger onOpen={openMenu} />
         <div className="hero__wrapper-btn">
-          <Button className="hero__btn" children="С чего начать?" />
+          <Button className="hero__btn" label="С чего начать?" />
         </div>
         <HeroPig />
         <HeroMobilMenu isOpen={isMenuOpen} onClose={closeMenu} />
